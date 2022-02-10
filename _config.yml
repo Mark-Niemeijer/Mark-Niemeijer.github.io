@@ -1,4 +1,5 @@
 theme: jekyll-theme-midnight
 title: Mark's Portofolio
 description: Here I show some interesting things that I have done
-github: is_project_page: false
+github: 
+is_project_page: false
