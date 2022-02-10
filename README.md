@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+[Image](https://www.hairfair.nl/media/blog/test-.jpg)
+
+I am Mark Niemeijer
 
 You can use the [editor on GitHub](https://github.com/Mark-Niemeijer/Mark-Niemeijer.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
