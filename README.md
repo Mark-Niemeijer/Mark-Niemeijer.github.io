@@ -2,4 +2,4 @@
 
 I am Mark Niemeijer
 
-[Test link](https://github.com/Mark-Niemeijer/Mark-Niemeijer.github.io/edit/main/Markup%20details.md)
+[Test link](Markup%20details.md)
