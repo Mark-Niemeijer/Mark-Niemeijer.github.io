@@ -1,5 +1,2 @@
-![Image](https://www.hairfair.nl/media/blog/test-.jpg)
-
-I am Mark Niemeijer
-
+I am Mark Niemeijer ![Image](https://www.hairfair.nl/media/blog/test-.jpg)
 [Test link](Markup%20details.md)
