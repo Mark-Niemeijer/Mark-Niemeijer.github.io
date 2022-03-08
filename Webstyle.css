@@ -6,9 +6,6 @@
 }
 
 .portMain {
-  display: flex;
-  justify-content: center;
-}
-img {
-  width: 200px;
+  margin: auto;
+  width: 50%;
 }
