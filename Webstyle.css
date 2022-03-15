@@ -11,6 +11,10 @@
   width: 80%;
 }
 
+.contactCell {
+  padding: 6px;
+}
+
 img {
   display: block;
   margin-left: auto;
