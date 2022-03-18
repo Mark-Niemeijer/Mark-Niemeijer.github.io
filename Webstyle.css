@@ -12,7 +12,10 @@
 }
 
 .indexPortImg {
- height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
   width: 40%;
 }
 
@@ -20,7 +23,7 @@
   padding: 6px;
 }
 
-img {
+.indexProfileImg {
   display: block;
   margin-left: auto;
   margin-right: auto;
