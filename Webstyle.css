@@ -20,6 +20,7 @@
   margin-right: auto;
   height: 40%;
   width: 40%;
+  clip-path: ellips(50% 40% at 50% 50%);
 }
 
 .contactCell {
