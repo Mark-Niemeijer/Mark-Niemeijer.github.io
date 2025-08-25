@@ -13,7 +13,8 @@
   <p style="font-size: 20px;">1. Rotate towards the center of the group</p>
   <p style="font-size: 20px;">2. Rotate away from any other members of the group</p>
   <p style="font-size: 20px;">3. Rotate towards the waypoints that lead to the goal</p>
-  <p style="font-size: 20px;">After all these rules excuted, their rotations are combined and this decides where the agent should look towards. The agent then moves forward in the direction it is looking.</p>
+  <p style="font-size: 20px;">4. If another group gets too close, rotate away from the center of the other group</p>
+  <p style="font-size: 20px;">After all these rules excuted, their rotations are combined and this decides where the agent should look towards. The agent then moves forward in the direction it is looking. There are a few exceptions that overrule these 3 rules. Should an agent move to far away from the rest of the group then the agent gets told to return to the center of the group and to ignore the other rules. This makes sure they do not go off on their own and breakt he group cohession.</p>
   </div>
 </body>
 </html>
