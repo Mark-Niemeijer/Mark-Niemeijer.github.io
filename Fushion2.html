@@ -5,16 +5,13 @@
 <body>
   <a href="index.html"><img src="Images/ArrowLeft.png" alt="Backbutton" width="50" height="50"></a>
   <div class="portMain">
-  <h1>Flocking Behaviour</h1>
-  <iframe width="560" height="315" src="https://youtu.be/oXhKP6bi0no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <p style="font-size: 20px;">In order to improve my knowledge on AI opponent behaviour in gaming I wanted to learn a behaviour for moving groups of agents together by studying flocking behaviour. 
-  In this small project I created a small arena where two groups of agents have to move past each other while staying close to their group. The agents are spawned in and then given a predetermined end point. With the help of the unity path finding system, I calculate a path from the start towards the end and get a series of locations the agents must go to.
-  The agents follow a set of simple rules that when combined, create the behaviour of flocking together while moving towards a target. These rules are:</p>
-  <p style="font-size: 20px;">1. Rotate towards the center of the group</p>
-  <p style="font-size: 20px;">2. Rotate away from any other members of the group</p>
-  <p style="font-size: 20px;">3. Rotate towards the waypoints that lead to the goal</p>
-  <p style="font-size: 20px;">4. If another group gets too close, rotate away from the center of the other group</p>
-  <p style="font-size: 20px;">After all these rules executed, their rotations are combined, and this decides where the agent should look towards. The agent then moves forward in the direction it is looking. There are a few exceptions that overrule these 3 rules. Should an agent move to far away from the rest of the group then the agent gets told to return to the center of the group and to ignore the other rules. This makes sure they do not go off on their own and break the group cohesion.</p>
+  <h1>Fusion 2</h1>
+  <iframe width="560" height="315" src="https://youtu.be/lLO8kNj7kwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p style="font-size: 20px;">I wanted to learn how to use fusion 2, a libary for multiplayer in video games. In order to get a grip on it I made a small first person shooter using this system. 
+  I use fusion to connect players with eachother using their master server, making it easy to connect to people without having to share IP-Adresses. 
+  When every player that has joined presses the ready button the level gets loaded in. Players can move around using the WASD keys and look around with the mouse. 
+  If they press the left mouse button the gun fires and if the other player gets hit they take damage. After 3 hits the opponent dies and gets respawned on pre defined spawning points. 
+  Pressing the TAB key will show a leader board with how many kills each player has. There are also health packs in the level that can be picked up to restore HP.</p>
   <p style="font-size: 20px;">Download link to project: <a href="https://mark0191.stackstorage.com/s/qUrN8hpYriutkdWI">Click here</a></p>
   </div>
 </body>
